@@ -1,0 +1,56 @@
+<!-- /*==================
+
+Project Name: Legend's Hub
+Author : Waqar Hussain Khushk
+ 
+====================*/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Form</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <script type="text/javascript" src="resources/js/jquery.js"></script>
+    <script type="text/javascript" src="resources/js/animation.js"></script>
+    <script type="text/javascript" src="resources/js/validation.js"></script>
+</head>
+<body>
+    <form name="myform" onsubmit="return validateForm()">
+        <ul>
+            <li class="title">Who Are You?</li>
+            <li class="fields">
+                <label>*First Name:</label><br>
+                <input type="text" id="first_name" class="req"><br>
+                <label>Middle Name:</label><br>
+                <input type="text" id="middle_name"><br>
+                <label>Last Name:</label><br>
+                <input type="text" id="last_name"><br>
+                <label>*E-mail:</label><br>
+                <input type="text" id="e-mail" class="req"><br>
+            </li>
+            <li class="title">Where Are You?</li>
+            <li class="fields">
+                <label>City:</label><br>
+                <input type="text" id="city"><br>
+                <label>*State:</label><br>
+                <input type="text" id="state" class="req"><br>
+                <label>Country:</label><br>
+                <input type="text" id="country"><br>
+            </li>
+            </li>
+            <li class="title">What Do You Do?</li>
+            <li class="fields">
+                <label>*Occupation:</label><br>
+                <input type="text" id="occupation" class="req"><br>
+                <label>Company:</label><br>
+                <input type="text" id="company"><br>
+                <label>Company Location:</label><br>
+                <input type="text" id="country"><br>
+            </li>
+        </ul>
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>
